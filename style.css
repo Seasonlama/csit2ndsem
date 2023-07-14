@@ -1,0 +1,14 @@
+.goblin{
+    background-color:aquamarine;
+    text-decoration: overline;
+    opacity:60%;
+    border:dashed 3px;
+}
+body{
+    background-color: pink;
+}
+.uppercase{
+    text-decoration: underline;
+    line-height: 3;
+    font-family: 'Times New Roman', Times, serif;
+}
