@@ -1,14 +1,68 @@
-.goblin{
-    background-color:aquamarine;
-    text-decoration: overline;
-    opacity:60%;
-    border:dashed 3px;
+*{
+    margin:0;
+    font-family: Arial;
+    border:border-box;
 }
-body{
+.navbar{
+    height: 100px;
+    background-color: #536464;
+    color:white;
+    display: flex;
+    align-items: center;
+}
+.nav-logo{
+    height: 60px;
+    width: 100px;
+}
+.logo{
+    background-image: url("https://tinyurl.com/43mr5m86") ;
+    background-size:cover;
+    height: 60px;
+    width: 100%;
+}
+.border{
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    border: 1.4px solid white;
+}
+/* box2*/
+.add-high{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+.add-low{
+    color: #cccccc;
+    font-size: 1rem;
+    
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+/* box3*/
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    width: 600px;
+    height: 40px;
     background-color: pink;
+    border-radius: 4px;
+
 }
-.uppercase{
-    text-decoration: underline;
-    line-height: 3;
-    font-family: 'Times New Roman', Times, serif;
+.search-select{
+    background-color: #f3f3f3;
+    width:50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border:none;
+}
+.search-input{
+    width: 500px;
+    font-size: 1rem;
+    border:none;
 }
